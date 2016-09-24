@@ -9,7 +9,7 @@
 * OUTPUT
 *  - A JSON with subject code as property and grade as value on success, else a property error.
  ***************************************************************************/
- 
+
  <?php
   $resultJSON = array();
 
@@ -25,6 +25,7 @@
   else {
     //Scraps the result table table out of the page.
     //Since the returned page did not have any class or id, we cut the table out.
+    //A more efficient way to do this would be to select `$(tr[bgcolor="#fffaea"])` and iterate to the result's innerHTML. I'm using this to make it work without dependencies.
     $content     = strip_tags($content, "<table><tbody><tr><td>");
     $table_begin = strpos($content, '<table width="500" border="1" align="center">');
     $content     = substr($content, $table_begin);
