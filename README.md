@@ -1,4 +1,4 @@
-# AUScrapper
+# AUScraper
 An ultra-cool script that returns a JSON of Anna University Semester Result for the given register number.
 
 # Demo
