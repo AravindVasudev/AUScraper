@@ -1,0 +1,51 @@
+@import '../../node_modules/materialize-css/sass/materialize';
+
+body {
+  @extend .grey, .lighten-4
+}
+
+#app-container {
+  //Occupy Entire Display
+  height: 100vh;
+  width: 100%;
+
+  //Centers child elements
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  height: 70%;
+  width: 70%;
+
+  //Centers child elements
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app-content {
+  width: 100%;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+@media only screen and (max-width: 768px) {
+  #app {
+    height: 100%;
+    width: 100%;
+  }
+}

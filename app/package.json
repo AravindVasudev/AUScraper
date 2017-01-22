@@ -1,0 +1,47 @@
+{
+  "name": "auscraper",
+  "version": "0.2.0",
+  "description": "A simple app that generates organized Anna University semster results.",
+  "main": "public/index.php",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AravindVasudev/AUScraper.git"
+  },
+  "author": "aravindvasudev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AravindVasudev/AUScraper/issues"
+  },
+  "homepage": "https://github.com/AravindVasudev/AUScraper#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.3.0",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "materialize-css": "^0.97.8"
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.js",
+    "materialize": "./node_modules/materialize-css/bin/materialize.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "materialize": "materialize"
+  }
+}
