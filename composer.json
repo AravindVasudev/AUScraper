@@ -1,0 +1,21 @@
+{
+    "name": "aravindvasudev/auscraper",
+    "description": "A simple app that generates organized Anna University semster results.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aravindvasudev",
+            "email": "aravindv96@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phroute/phroute": "^2.1",
+        "guzzlehttp/guzzle": "^6.2",
+        "phpoffice/phpexcel": "^1.8"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    }
+}

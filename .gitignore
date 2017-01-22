@@ -1,4 +1,4 @@
-/app/vendor/
-/app/node_modules/
-/app/public/css/main.css
-/app/public/js/main.js
+vendor/
+node_modules/
+public/css/main.css
+public/js/main.js
