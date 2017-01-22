@@ -1,0 +1,4 @@
+/app/vendor/
+/app/node_modules/
+/app/public/css/main.css
+/app/public/js/main.js
