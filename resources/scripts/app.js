@@ -23,9 +23,13 @@ $(() => {
       if (this.status == 200) {
         Materialize.toast('done.', 4000);
         let link = document.createElement('a');
+        document.body.appendChild(link);
         link.href = window.URL.createObjectURL(this.response);
         link.download = "results.xlsx";
         link.click();
+
+        //adding some delay in removing the dynamically created link solved the problem in FireFox
+        setTimeout(function() {window.URL.revokeObjectURL(url);},0);
       }
       else {
         Materialize.toast('Invalid data!', 4000);
