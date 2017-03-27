@@ -1,0 +1,6 @@
+{
+  "name": "AUScraper",
+  "description": "A simple app that generates an excel file for a range of register numbers fetched from Anna University server.",
+  "repository": "https://github.com/AravindVasudev/AUScraper",
+  "addons": []
+}

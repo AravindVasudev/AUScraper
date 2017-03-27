@@ -1,3 +1,9 @@
+DISCLAIMER: Anna University has closed the portal through which this script accessed
+semester results without Date of Birth. This will start working when Anna University
+opens the portal back for the next semester results.
+
+AU Portal: `http://aucoe.annauniv.edu/cgi-bin/result/cgrade.pl?regno=` (If this works, the app will too)
+
 ![](screenshot.png)
 
 # AUScraper
