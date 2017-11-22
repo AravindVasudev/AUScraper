@@ -56,7 +56,7 @@
       };
 
       $pool = new Pool($client, $requests($offset), [
-          'concurrency' => 5,
+          'concurrency' => 100,
           'fulfilled' => function ($response, $index) use(&$results) {
               $results[] = $this->sanitizeHTML($response->getBody());
           }
