@@ -94,14 +94,7 @@ Note: Use `resources/scripts/app.js` as reference to send request via web client
   ```
 
 ## Deploying in Heroku <a name="deploy"></a>
-  1. Following Installation, Install `Heroku Toolbelt` and `Git Client`.
-
-  2. Create a new Heroku App and push the code
-
-  ```
-  $ heroku create
-  $ git push heroku master
-  ```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Contribute <a name="contribute"></a>
   You are always welcome to open an issue or provide a pull-request!
